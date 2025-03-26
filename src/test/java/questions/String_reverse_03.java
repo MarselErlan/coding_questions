@@ -3,19 +3,19 @@ package questions;
 
 import java.util.Scanner;
 
-public class String_reverse_01 {
+public class String_reverse_03 {
 
     public static void main(String [] args){
-        System.out.println("Enter your String: ");
-        Scanner mySraner = new Scanner(System.in);
-        String myString = mySraner.nextLine();
-        String reversString = "";
+        System.out.println(revStr("apple"));
 
-        for(int i = myString.length()-1; i != -1; i--){
-            reversString = reversString + myString.charAt(i);
+    }
+
+    public static String revStr(String str){
+        StringBuilder res = new StringBuilder();
+
+        for(int i = str.length()-1; i >= 0; i--){
+            res.append(str.charAt(i));
         }
-
-        System.out.println(reversString);
-
+        return res.toString();
     }
 }

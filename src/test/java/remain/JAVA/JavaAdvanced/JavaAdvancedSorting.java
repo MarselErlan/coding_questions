@@ -17,17 +17,20 @@ class Car {
     }
 }
 
-class SortByYear implements Comparator {
-    public int compare(Objects obj1, Objects obj2){
-        Car a = (Car) obj1;
-        Car b = (Car) obj2;
+class SortByYear implements Comparator{
+
+    @Override
+    public int compare(Object o1, Object o2) {
+
+        Car a = (Car) o1;
+        Car b = (Car) o2;
 
         if(a.year < b.year) return -1;
         if(a.year > b.year) return 1;
         return 0;
     }
-
 }
+
 
 public class JavaAdvancedSorting {
     public static void main(String [] args){

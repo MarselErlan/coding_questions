@@ -1,4 +1,4 @@
-package remain.JAVA.JavaDataStructures;
+package remain.JAVA.javaDataStructures;
 
 public class JavaWrapperClasses {
     public static void main(String [] args){

@@ -1,4 +1,4 @@
-package remain.JAVA.JavaAdvanced;
+package remain.JAVA.javaAdvanced;
 
 public class JavaThreads extends Thread {
 //    public static void main(String [] args){

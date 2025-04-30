@@ -1,4 +1,4 @@
-package remain.JAVA.JavaDataStructures;
+package remain.JAVA.javaDataStructures;
 
 import java.util.HashMap;
 

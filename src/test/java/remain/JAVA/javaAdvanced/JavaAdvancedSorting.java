@@ -1,9 +1,8 @@
-package remain.JAVA.JavaAdvanced;
+package remain.JAVA.javaAdvanced;
 
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
-import java.util.Objects;
 
 class Car {
     public String brand;

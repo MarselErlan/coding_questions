@@ -1,4 +1,4 @@
-package remain.JAVA.JavaAdvanced;
+package remain.JAVA.javaAdvanced;
 
 public class JavaExceptions {
 

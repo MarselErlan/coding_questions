@@ -1,4 +1,4 @@
-package remain.JAVA.JavaAdvanced;
+package remain.JAVA.javaAdvanced;
 
 import java.util.ArrayList;
 import java.util.function.Consumer;

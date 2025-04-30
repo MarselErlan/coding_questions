@@ -1,4 +1,4 @@
-package remain.JAVA.JavaDataStructures;
+package remain.JAVA.javaDataStructures;
 
 import java.util.ArrayList;
 import java.util.Iterator;

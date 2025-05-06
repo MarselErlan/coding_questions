@@ -1,4 +1,4 @@
-package remain.JAVA.javaKeyWord;
+package remain.JAVA.javaReference.javaKeyWord;
 
 public class JavaAssert {
     public static void main(String [] args){
